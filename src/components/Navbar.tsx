@@ -144,3 +144,4 @@ export const Navbar: React.FC<Props> = ({ activeSection, setActiveSection, isDbC
     </header>
   );
 };
+

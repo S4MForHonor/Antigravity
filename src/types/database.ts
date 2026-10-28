@@ -40,3 +40,4 @@ export interface FormTecnologiaInput {
   ventajas: string;
   desafios: string;
 }
+

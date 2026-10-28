@@ -356,3 +356,4 @@ INSERT INTO public.glosario (termino, definicion, categoria, ejemplo) VALUES
     ('Inteligencia Artificial (IA)', 'Campo de la informática que crea algoritmos capaces de realizar tareas complejas que requieren razonamiento o percepción humana.', 'Inteligencia Artificial', 'Un modelo de visión que detecta anomalías en radiografías médicas.'),
     ('Ciberseguridad', 'Conjunto de tecnologías, procesos y prácticas orientadas a defender sistemas, redes y datos de ataques o accesos no autorizados.', 'Seguridad', 'El cifrado de contraseñas con funciones hash seguras (bcrypt).')
 ON CONFLICT (termino) DO NOTHING;
+

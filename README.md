@@ -152,3 +152,4 @@ Durante la presentación del trabajo integrador, podrás exhibir:
    - Abre el panel de Supabase y muestra la nueva fila en la tabla de la base de datos.
 6. **Políticas de Seguridad RLS:**
    - Muestra el archivo `001_initial_schema.sql` y explica cómo Row Level Security protege la base de datos contra borrados no autorizados.
+
