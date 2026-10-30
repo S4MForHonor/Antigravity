@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { DatabaseStatusBanner } from './components/DatabaseStatusBanner';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { QueSonLasTI } from './components/QueSonLasTI';
@@ -45,7 +44,7 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
       {/* Banner de diagnóstico en vivo de la conexión con Supabase */}
-      <DatabaseStatusBanner onRefreshNeeded={checkConnection} />
+    
 
       {/* Barra de navegación superior fija */}
       <Navbar 

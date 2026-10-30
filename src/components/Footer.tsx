@@ -14,6 +14,14 @@ export const Footer: React.FC<Props> = ({ onNavigate }) => {
           
           {/* Columna 1: Presentación académica */}
           <div className="md:col-span-2 space-y-3">
+            <div className="mb-5">
+           <p className="text-blue-400 font-bold text-sm tracking-wide">
+           IESET y FP
+           </p>
+           <p className="text-slate-400 text-xs leading-relaxed mt-1">
+            Instituto de Educación Superior - Educación Técnica y Formación Profesional
+           </p>
+            </div>
             <div className="flex items-center gap-2 text-white font-bold text-base">
               <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
                 <Cpu className="w-4 h-4 text-white" />
